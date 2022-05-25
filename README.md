@@ -1,1 +1,1 @@
-# InvntryMngmnt
+# Inventory Management
