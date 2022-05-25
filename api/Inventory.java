@@ -5,7 +5,15 @@ class Inventory {
     String id;
 
     protected Inventory() {
+        itemList = new ArrayList<>();
+    }
 
+    protected void addItem(Item item) {
+        itemList.add(item);
+    }
+
+    protected void removeItem(String itemId) {
+        itemList.removeIf(item -> item.getId().equals(itemId));
     }
 
     protected String getId() {
