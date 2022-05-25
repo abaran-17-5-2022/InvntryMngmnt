@@ -1,6 +1,6 @@
 
 public class User {
-    private String id;
+    private final String id;
 
     protected User() {
         id = null;

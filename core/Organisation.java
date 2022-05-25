@@ -2,12 +2,12 @@ import java.util.ArrayList;
 
 class Organisation {
     private String orgId;
-    private ArrayList<User> userList;
-    private ArrayList<Inventory> invList;
+    private final ArrayList<User> userList;
+    private final ArrayList<Inventory> invList;
 
     protected Organisation() {
-        userList = new ArrayList<User>();
-        invList = new ArrayList<Inventory>();
+        userList = new ArrayList<>();
+        invList = new ArrayList<>();
     }
 
     protected String getId() {
